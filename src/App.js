@@ -5,7 +5,7 @@ import Propiedades from "./components/Propiedades";
 import Estado from "./components/Estado";
 import RenderizadoCondicional from "./components/RenderizadoCondicional";
 import RenderizadoElementos from "./components/RenderizadoElementos";
-import { Eventos, EventosES7 } from "./components/Eventos";
+import { Eventos, EventosES7, MasSobreEventos } from "./components/Eventos";
 
 let nombre = "Alexis";
 
@@ -53,6 +53,8 @@ function App() {
           <Eventos />
           <hr />
           <EventosES7 />
+          <hr />
+          <MasSobreEventos />
         </section>
       </header>
     </div>

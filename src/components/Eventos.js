@@ -68,3 +68,20 @@ export class Eventos extends Component {
     );
   }
 }
+
+export class MasSobreEventos extends Component {
+  handleClick = (e) => {
+    console.log(e);
+    console.log(e.nativeEvent);
+    console.log(e.target);
+    console.log(e.nativeEvent.target);
+  };
+  render() {
+    return (
+      <div>
+        <h2>Mas sobre eventos</h2>
+        <button onClick={this.handleClick}> Saludar</button>
+      </div>
+    );
+  }
+}
